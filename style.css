@@ -1,0 +1,88 @@
+.float-container {
+  
+  padding: 20px;
+  
+  align-items: center;
+
+  
+}
+
+.float-child {
+  width:28%;
+  height:150px;
+  float: left;
+  padding: 20px;
+  border: 2px solid rgb(61, 60, 60);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}  
+.float-child h3{
+  color: black;
+}
+.float-child.green {
+
+  width: 28%;
+  background: -webkit-linear-gradient(top, #C655BE 0%,#cf0404 100%); 
+}
+.float-child.blue {
+
+  
+
+  margin: auto;
+  width: 28%;
+  margin-left: 60px;
+  padding: 20px;
+  background: -webkit-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); 
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}  
+
+.float-child.gr {
+  width:28%;
+  float: right;
+  padding: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background: -webkit-linear-gradient(top, #56B870 0%, #a5c956 100%);
+  
+}  
+
+@media screen and (max-width: 600px) {
+  .float-child.green{
+    padding: 70px 0;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    
+  }
+  .float-child.blue{
+    padding: 70px 0;
+    
+    margin-left: 30px;
+    margin-right: auto;
+    width:40%;
+    
+  }
+  .float-child.green{
+    padding: 70px 0;
+    margin-left: auto;
+    margin-right: auto;
+    width:40%;
+    
+  }
+  
+}
+
+
+
+.float-child:hover {
+  cursor: pointer;
+  transition: all 1s linear;
+  transform: scale(1.1);
+  border: 2px solid rgb(100, 100, 100);
+}  
+
+   
